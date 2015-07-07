@@ -1,0 +1,6 @@
+[submodule "GameSaveInfo"]
+	path = GameSaveInfo
+	url = https://github.com/GameSaveInfo/Lib.CSharp.git
+[submodule "MASGAU/Data"]
+	path = MASGAU/Data
+	url = https://github.com/GameSaveInfo/Data.git

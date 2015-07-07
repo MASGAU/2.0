@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>{5c50475e-1731-496d-93ee-ee8824aa6df8}</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>MASGAU</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Forms\MainForm.Controller.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Forms\MainForm.View.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MASGAU.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Data\!test.xml" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Data\a.xml" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Data\b.xml" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Data\c.xml" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Data\d.xml" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Data\deprecated.xml" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Data\e.xml" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Data\f.xml" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Data\g.xml" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Data\h.xml" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Data\i.xml" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Data\j.xml" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Data\k.xml" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Data\l.xml" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Data\m.xml" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Data\n.xml" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Data\new.xml" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Data\numeric.xml" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Data\o.xml" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Data\p.xml" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Data\q.xml" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Data\r.xml" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Data\s.xml" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Data\system.xml" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Data\t.xml" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Data\u.xml" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Data\v.xml" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Data\w.xml" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Data\x.xml" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Data\y.xml" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Data\z.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Data\GameSaveInfo22.xsd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)Locations\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Views\" />
+  </ItemGroup>
+</Project>

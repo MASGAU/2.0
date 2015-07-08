@@ -11,7 +11,13 @@
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)Forms\MainForm.Controller.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Forms\MainForm.View.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)MASGAU.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)LocationFinders\ALocationFinder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)LocationFinders\FlashLocationFinder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)LocationFinders\SystemLocationFinder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)LocationFinders\UbisoftLocationFinder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Core.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SyncTargets\ASyncTarget.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SyncTargets\FolderSyncTarget.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)Data\!test.xml" />
@@ -50,7 +56,7 @@
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)Data\GameSaveInfo22.xsd" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="$(MSBuildThisFileDirectory)Locations\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Strings\" />
     <Folder Include="$(MSBuildThisFileDirectory)Views\" />
   </ItemGroup>
 </Project>

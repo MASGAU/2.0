@@ -11,8 +11,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MASGAU.Gtk3", "MASGAU.Gtk3\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MASGAU.Wpf", "MASGAU.Wpf\MASGAU.Wpf.csproj", "{9835A1F4-B8C4-420A-AA9A-FA0B90843B5E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MASGAU.WinForms", "MASGAU.WinForms\MASGAU.WinForms.csproj", "{D265D8C0-7188-441B-97BB-F96CFB2ADB22}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MASGAU.Mac", "MASGAU.Mac\MASGAU.Mac.csproj", "{8DA0E0D3-3782-48FF-97FA-A37D29E04097}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameSave.Info", "GameSaveInfo\GameSave.Info.csproj", "{937CDE2B-963A-4624-A460-C95676260D35}"
@@ -23,7 +21,6 @@ Global
 		MASGAU\MASGAU.projitems*{5c50475e-1731-496d-93ee-ee8824aa6df8}*SharedItemsImports = 13
 		MASGAU\MASGAU.projitems*{9835a1f4-b8c4-420a-aa9a-fa0b90843b5e}*SharedItemsImports = 4
 		MASGAU\MASGAU.projitems*{8da0e0d3-3782-48ff-97fa-a37d29e04097}*SharedItemsImports = 4
-		MASGAU\MASGAU.projitems*{d265d8c0-7188-441b-97bb-f96cfb2adb22}*SharedItemsImports = 4
 		MASGAU\MASGAU.projitems*{c62f7dfd-e6a1-483b-9ed8-559d98af446b}*SharedItemsImports = 4
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -65,16 +62,6 @@ Global
 		{9835A1F4-B8C4-420A-AA9A-FA0B90843B5E}.Release|Mixed Platforms.Build.0 = Release|x86
 		{9835A1F4-B8C4-420A-AA9A-FA0B90843B5E}.Release|x86.ActiveCfg = Release|x86
 		{9835A1F4-B8C4-420A-AA9A-FA0B90843B5E}.Release|x86.Build.0 = Release|x86
-		{D265D8C0-7188-441B-97BB-F96CFB2ADB22}.Debug|Any CPU.ActiveCfg = Debug|x86
-		{D265D8C0-7188-441B-97BB-F96CFB2ADB22}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
-		{D265D8C0-7188-441B-97BB-F96CFB2ADB22}.Debug|Mixed Platforms.Build.0 = Debug|x86
-		{D265D8C0-7188-441B-97BB-F96CFB2ADB22}.Debug|x86.ActiveCfg = Debug|x86
-		{D265D8C0-7188-441B-97BB-F96CFB2ADB22}.Debug|x86.Build.0 = Debug|x86
-		{D265D8C0-7188-441B-97BB-F96CFB2ADB22}.Release|Any CPU.ActiveCfg = Release|x86
-		{D265D8C0-7188-441B-97BB-F96CFB2ADB22}.Release|Mixed Platforms.ActiveCfg = Release|x86
-		{D265D8C0-7188-441B-97BB-F96CFB2ADB22}.Release|Mixed Platforms.Build.0 = Release|x86
-		{D265D8C0-7188-441B-97BB-F96CFB2ADB22}.Release|x86.ActiveCfg = Release|x86
-		{D265D8C0-7188-441B-97BB-F96CFB2ADB22}.Release|x86.Build.0 = Release|x86
 		{8DA0E0D3-3782-48FF-97FA-A37D29E04097}.Debug|Any CPU.ActiveCfg = Debug|x86
 		{8DA0E0D3-3782-48FF-97FA-A37D29E04097}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
 		{8DA0E0D3-3782-48FF-97FA-A37D29E04097}.Debug|Mixed Platforms.Build.0 = Debug|x86

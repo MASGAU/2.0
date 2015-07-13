@@ -80,7 +80,7 @@ namespace MASGAU.LocationFinders {
         private bool UACEnabled = false;
         private WindowsVersion Version;
 
-        public void Initialize() {
+        public override void Initialize() {
             
             if (!String.IsNullOrEmpty(Environment.GetEnvironmentVariable("ProgramW6432"))) {
                 this.AddPath(EnvironmentVariable.ProgramFiles, Environment.GetEnvironmentVariable("ProgramW6432"));

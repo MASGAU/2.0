@@ -16,6 +16,9 @@
     <Compile Include="$(MSBuildThisFileDirectory)LocationFinders\SystemLocationFinder.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)LocationFinders\UbisoftLocationFinder.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Core.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ProcessStatus.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Programs\ProgramCollection.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Programs\ProgramFinder.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)SyncTargets\ASyncTarget.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)SyncTargets\FolderSyncTarget.cs" />
   </ItemGroup>

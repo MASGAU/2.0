@@ -13,6 +13,7 @@ namespace MASGAU
 
         private Command cmdButton;
         private Label lblContent;
+        private ProgressBar prgBar;
 
 		private void Construct()
 		{
@@ -20,6 +21,7 @@ namespace MASGAU
 			ClientSize = new Size(400, 350);
 
             lblContent = new Label { Text = "Hello World!" };
+            prgBar = new ProgressBar();
 
 			// scrollable region as the main content
 			Content = new Scrollable
@@ -29,7 +31,7 @@ namespace MASGAU
 					null,
 					// row with three columns
 					new TableRow(null, lblContent, null),
-					null
+                    new TableRow(null, prgBar, null)
 				)
 			};
 

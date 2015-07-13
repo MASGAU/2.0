@@ -6,5 +6,8 @@ namespace MASGAU.LocationFinders
 {
     partial class FlashLocationFinder: ALocationFinder
     {
+        public override void Initialize() {
+            
+        }
     }
 }

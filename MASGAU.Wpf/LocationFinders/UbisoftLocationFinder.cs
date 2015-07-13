@@ -10,7 +10,7 @@ using MASGAU.Registry;
 namespace MASGAU.LocationFinders {
     partial class UbisoftLocationFinder {
 
-        public void Initialize() {
+        public override void Initialize() {
             // Global ubisoft save location
             DirectoryInfo ubisoft_save = null;
             RegistryHandler ubi_reg = new RegistryHandler("local_machine", @"SOFTWARE\Ubisoft\Launcher", false);
@@ -28,7 +28,8 @@ namespace MASGAU.LocationFinders {
 
 
             if (ubisoft_save != null && ubisoft_save.Exists) {
-                this.AddPath(EnvironmentVariable.UbisoftSaveStorage, ubisoft_save, true);
+                this.AddPath(EnvironmentVariable.UbisoftSaveStorage, ubisoft_save.FullName);
+                //this.AddPath(EnvironmentVariable.UbisoftSaveStorage, ubisoft_save, true);
             }
 
             // Per-user?
